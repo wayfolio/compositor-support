@@ -1,7 +1,11 @@
 {
-  "generationTimestamp": 1779798302756,
-  "version": "50.1",
+  "generationTimestamp": 1788711174989,
+  "version": "51",
   "globals": [
+    {
+      "interface": "ext_background_effect_manager_v1",
+      "version": 1
+    },
     {
       "interface": "gtk_shell1",
       "version": 7
@@ -87,6 +91,10 @@
       "version": 1
     },
     {
+      "interface": "xdg_session_manager_v1",
+      "version": 1
+    },
+    {
       "interface": "xdg_system_bell_v1",
       "version": 1
     },
@@ -140,7 +148,7 @@
     },
     {
       "interface": "zwp_text_input_manager_v3",
-      "version": 1
+      "version": 2
     },
     {
       "interface": "zxdg_exporter_v1",
