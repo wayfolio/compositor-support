@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Install check-jsonschema
-        run: pip install check-jsonschema
+        run: pip install 'click>=8.2' check-jsonschema
       - name: Check
         run: check-jsonschema --schemafile data.schema.json data/*
